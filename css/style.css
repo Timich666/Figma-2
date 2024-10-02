@@ -1,0 +1,578 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "TT Hoves", sans-serif;
+
+}
+
+section {
+    padding: 0 calc(24px + (121 - 24) * ((100vw - 375px) / (1280 - 375)));
+
+}
+section.hello2, .hello4, .diplom, .SaleContainer, .hello5, .hello6, .teacher, .review, .hello7, .hello8, .lastPage {
+    margin-top: calc(11vw + 18.5px);
+}
+
+section.hello {
+    padding-top: 40px;
+    background-image: url(../img/html_css_js\ 1.png);
+    background-repeat: no-repeat;
+    background-position: top  calc(77px + (121 - 77) * ((100vw - 375px) / (1280 - 375))) right calc(3.5px + (58 - 3.5) * ((100vw - 375px) / (1280 - 375))); 
+   
+    background-size: 35%;
+
+}
+
+.logo {
+    height: calc(30px + (41 - 30) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.courseInfo {
+    display: flex;
+    gap: 30px 161px;
+    flex-wrap: wrap;
+    margin-top: calc(28px + (85 - 28) * ((100vw - 375px) / (1280 - 375)));
+    margin-bottom: calc(48px + (76 - 48) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.courseData {
+    font-size: 21px;
+    line-height: 140%;
+}
+
+.courseData .value {
+    font-weight: 700;
+}
+
+
+h1 {
+    font-family: "Chava", sans-serif;
+    font-size: calc(42px + (80 - 42) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 110%;
+}
+
+p {
+    margin-top: calc(20px + (40 - 20) * ((100vw - 375px) / (1280 - 375)));
+    font-size: calc(18px + (27 - 18) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 300;
+    line-height: 140%;
+}
+
+.cta {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px 30px;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 320px;
+    padding: 20px 0;
+    border-radius: 12px;
+    
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 117%;
+}
+
+button.purple {
+    background: #6E3ABA;
+    color: white;
+    border: 1px solid #6E3ABA;
+}
+
+button.white {
+    background: white;
+    color: #6E3ABA;
+    border: 1px solid #6E3ABA;
+}
+
+
+h2 {
+    font-weight: 500px;
+    font-size: calc(34px + (58 - 34) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 117%;
+    margin-top: calc(1.1vw + 18.5px);
+    margin-bottom: calc(40px + (90 - 40) * ((100vw - 375px) / (1280 - 375)));
+    text-transform: uppercase;
+
+    
+    
+}
+
+.container {
+    margin-top: calc(40px + (90 - 40) * ((100vw - 375px) / (1280 - 375)));
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 52px 70px;
+    max-width: 1280px;
+    justify-content: space-between;
+    
+}
+
+
+.pic {
+    height: calc(180px + (210 - 180) * ((100vw - 375px) / (1280 - 375)));
+}
+
+h4 {
+    font-weight: 600px;
+    font-size: calc(18px + (27 - 18) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 150%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+p {
+    font-size: calc(18px + (27 - 18) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 140%;
+}
+
+
+.card {
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+
+}
+
+
+.SaleContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6E3ABA;
+    padding: calc(4.4vw + 23.40px) 0 calc(5.2vw + 21.5px);
+}
+
+.SaleContainer h2 {
+    font-weight: 700px;
+
+
+
+}
+
+h3 {
+font-size: calc(2vw + 26.5px);
+font-weight: 700;
+line-height: 117%;
+color: white;
+
+}
+
+.time {
+    display: flex;
+    gap: 85px;
+    margin-bottom: calc(4vw + 6px);
+    margin-top: calc(4.1vw + 4.60px);
+}
+
+.date {
+    font-size: calc(12.6vw + 12.8px);
+    font-family: "Chava", sans-serif;
+}
+
+.timecard span {
+    font-size: calc(1.9vw + 3px);
+    display: block;
+    text-align: center;
+
+}
+
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 120px;
+    margin-top: calc(20px + (90 - 20) * ((100vw - 375px) / (1280 - 375)));
+   
+
+}
+
+.infocard {
+    width: 400px;
+    
+}
+
+
+.teacherinfo {
+    display: flex;
+    gap: calc(20px + (51 - 20) * ((100vw - 375px) / (1280 - 375)));
+    flex-wrap: wrap;
+}
+
+.teacherPhoto {
+    flex-basis: 250px;
+    flex-grow: 1;
+}
+
+.teacherPhoto img {
+    width: 100%;
+}
+
+.teacherBio {
+    flex-basis: 300px;
+    flex-grow: 3;
+}
+
+.teacherBio h4 {
+    font-size: calc(38px + (48 - 38) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 700;
+    line-height: 120%;
+
+}
+
+.teacherBioCardInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: calc(30px + (40 - 30) * ((100vw - 375px) / (1280 - 375)));
+    column-gap: calc(10px + (90 - 10) * ((100vw - 375px) / (1280 - 375)));
+    margin-top: calc(40px + (90 - 40) * ((100vw - 375px) / (1280 - 375)));
+
+}
+
+.teacherBioCard img {
+    width: 36px;
+}
+
+.teacherBioCard span {
+    display: block;
+    margin-top: 10px;
+    font-size: calc(16px + (21 - 16) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 140%;
+}
+
+
+.diplom {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.diplom img {
+    grid-row: 1/3;
+    max-width: 430px;
+    align-self: center;
+    
+}
+
+.diplom h2 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.diplom p {
+    margin-top: 20px;
+}
+
+.ptext h2 {
+    margin-bottom: calc(2.2vw + 11.7px);
+
+}
+
+.ptext p {
+    margin-bottom: calc(1.8vw + 13.3px);
+}
+
+.salaryPhoto img {
+    height: calc(23.6vw + 7.32px);
+}
+
+.bonusMain {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bonusPhoto {
+    flex-basis: 579px;
+    flex-grow: 1;
+}
+
+.bonusPhoto img {
+    width: 100%;
+
+}
+
+.bonusinfo {
+    flex-basis: 300px;
+    flex-grow: 4;
+}
+
+
+.bonusinfo p {
+    font-size: 21px;
+    line-height: 140%;
+
+}
+
+.feedbacks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.feedback {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color:#F0F7FD;
+    justify-content: space-between;
+    padding-left: 20px;
+
+
+}
+
+.feedbackText p {
+font-size: 21px;
+font-weight: 400;
+line-height: 140%;
+
+
+}
+
+.feedbackText {
+    width: 295px;
+    height: 484px;
+    
+}
+
+
+
+
+
+.student {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.student img {
+    border-radius: 50%;
+    padding-right: 12px;
+    
+}
+
+.studentInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    display: none;
+
+}
+
+.popUp {
+    background: #F0F7FD;
+    width: calc(326px + (800 - 326) * ((100vw - 375px) / (1280 - 375)));
+    height: 80vh;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    display: none;
+
+}
+
+.form {
+    width: 320px;
+}
+
+.form h4 {
+    text-transform: uppercase;
+    font-size: 26px;
+    text-align: center;
+}
+
+.form input {
+    display: block;
+    width: 100%;
+
+    border: 0;
+    border-bottom: 1px solid #a1a1a1;
+    outline: 0;
+    background: transparent;
+
+    font-size: 18px;
+    line-height: 27px;
+    padding: 10px 0;
+}
+
+.form button {
+    margin-top: 30px;
+}
+
+.thankYouPage {
+    background: #222;
+    width: calc(326px + (800 - 326) * ((100vw - 375px) / (1280 - 375)));;
+    height: 80vh;
+    border-radius: 12px;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    display: none;
+}
+
+.thankYouPage h2 {
+    margin-bottom: 10px;
+}
+
+.schoolInfo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 97px;
+}
+
+.bestSchool {
+    width: 426px;
+}
+
+.directions h2 {
+    font-size: calc(2.7vw + 24px);
+    font-weight: 700;
+    line-height: 68.32px;
+    margin-bottom: 5px;
+
+
+}
+
+
+.bestSchool p {
+font-size: 27px;
+font-weight: 600;
+line-height: 37.8px;
+
+}
+
+.directions {
+    width: 461px;
+    height: 247px;
+}
+
+
+
+.hello8 h2 {
+    margin-bottom: calc((-0.7vw) + 22.5px);
+}
+
+.hello8 p {
+    margin-top: 0;
+    margin-bottom: calc((-0.4vw) + 22.5px);
+}
+
+.hello8 img {
+    width: 328px;
+
+}
+
+.studentsPhoto {
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.lastPage {
+    display: flex;
+    background-color: #222;
+    justify-content: space-between;
+    align-items:center;
+    padding-top: 80px;
+
+}
+
+.lastPage span {
+    color: #FFFFFF;
+    
+}
+
+.lastH h2 {
+    color: #FFFFFF;
+    margin-top: 0;
+}
+
+.lastH {
+    width: 424px;
+    height: 272px;
+}
+
+.lastPage span {
+    padding-top: calc(4.3vw + 24px);
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.popUp2 {
+    background: #F0F7FD;
+    width: calc(327px + (475 - 327) * ((100vw - 375px) / (1280 - 375)));
+    height: 80vh;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form2 {
+    width: 328px;
+}
+
+.form2 h4 {
+    text-transform: uppercase;
+    font-size: 26px;
+    text-align: center;
+}
+
+.form2 input {
+    display: block;
+    width: 100%;
+
+    border: 0;
+    border-bottom: 1px solid #a1a1a1;
+    outline: 0;
+    background: transparent
+
+}
+
+.form2 button {
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+@media (max-width: 400px) {
+    .diplom {
+        grid-template-columns: 1fr;
+    }
+    .diplom img {
+        grid-row: 2/3;
+        width: 100%;
+    }
+}
